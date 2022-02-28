@@ -1,0 +1,29 @@
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: max-content;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f81ed;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-image {
+  width: 50px;
+  padding: 5px;
+}
+
+.btn > span {
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
